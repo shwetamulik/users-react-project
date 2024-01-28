@@ -25,11 +25,7 @@ export default function UserList() {
   const onSearch = (e) => {
     const searchQuery = e.target.value;
     setQuery(searchQuery);
-    // if (searchQuery === "") {
-    //   setFilteredUsers(userData);
-    // } else {
-    //   setFilteredUsers();
-    // }
+   
   };
   return (
     <div>
