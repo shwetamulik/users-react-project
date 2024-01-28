@@ -1,6 +1,5 @@
 import {Link} from 'react-router-dom';
 import useState from 'react';
-import Modal from './Modal';
 export default  function Header(){
     // const [isOpen, setIsOpen] = useState(false)
     const tabList = ['About', 'Contact']
